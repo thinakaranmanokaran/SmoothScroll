@@ -101,6 +101,8 @@ One package, dual-format compatibility, zero friction.
 
 ## License
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/thinakaran-dev/smooth-scroll/blob/main/LICENSE)
+
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---

@@ -2,10 +2,10 @@
   "name": "smooth-scroll",
   "version": "1.0.1",
   "description": "A smooth scroll wrapper component for React using Framer Motion",
-  "author": "Your Name <you@example.com>",
+  "author": "Thinakaran Manokaran <thinakaran@thinakaran.dev> (https://thinakaran.dev)",
   "license": "MIT",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
@@ -27,13 +27,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/smooth-scroll.git"
+    "url": "git+https://github.com/thinakaran-dev/smooth-scroll.git"
   },
   "keywords": [
     "react",
     "smooth-scroll",
     "framer-motion",
-    "scroll"
+    "scroll",
+    "react-component",
+    "animation",
+    "ui"
   ],
   "peerDependencies": {
     "framer-motion": ">=6",
@@ -52,7 +55,7 @@
     "typescript": "^5.9.2"
   },
   "bugs": {
-    "url": "https://github.com/yourname/smooth-scroll/issues"
+    "url": "https://github.com/thinakaranmanokaran/smooth-scroll/issues"
   },
-  "homepage": "https://github.com/yourname/smooth-scroll#readme"
+  "homepage": "https://github.com/thinakaranmanokaran/smooth-scroll#readme"
 }

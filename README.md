@@ -7,22 +7,31 @@
 
 **Author:** Thinakaran Manokaran · [https://thinakaran.dev](https://thinakaran.dev)
 
-A minimal, high-performance **React Smooth Scroll** component powered by **Framer Motion**.  
-Designed to bring silky-smooth transitions to your app — works perfectly for both **JavaScript (JSX)** and **TypeScript (TSX)** developers.
+---
+
+## 🌟 Overview
+
+**smooth-motion** is a **lightweight React smooth scroll and animation component** powered by **Framer Motion**.  
+It enables **fluid, spring-based scroll effects** with zero external CSS, working seamlessly in both **JavaScript (JSX)** and **TypeScript (TSX)** projects.  
+
+Ideal for **modern UI/UX**, landing pages, portfolios, and apps that need **silky smooth scrolling animations** with minimal setup.
 
 ---
 
 ## ✨ Features
 
-- Smooth spring-based scrolling with **Framer Motion**
-- Lightweight and dependency-friendly
-- Out-of-the-box support for **JS** and **TS**
-- Customizable props: `stiffness`, `damping`, `mass`
-- Zero external CSS — just clean, declarative React
+- 🚀 Smooth **Framer Motion-powered scroll animations**
+- ⚡ **Lightweight** and dependency-friendly
+- 🔧 Fully **customizable** via props (`stiffness`, `damping`, `mass`)
+- 📦 Out-of-the-box support for **JSX & TSX**
+- 🎨 No extra CSS — just clean, declarative **React**
+- 🛡️ TypeScript typings included
 
 ---
 
 ## 📦 Installation
+
+Install with your favorite package manager:
 
 ```bash
 npm install smooth-motion
@@ -30,7 +39,7 @@ npm install smooth-motion
 yarn add smooth-motion
 # or
 pnpm add smooth-motion
-````
+```
 
 ---
 
@@ -83,12 +92,13 @@ export default function App(): JSX.Element {
 
 ---
 
-## 💡 Why This Works for Everyone
+## 💡 Why Choose smooth-motion?
 
-No forcing users to choose between JSX and TSX:
-
-* **JSX users** → Just import the prebuilt JS, no setup required
-* **TSX users** → Automatically benefit from included `.d.ts` typings
+- Works with **React 17+ and React 19**
+- **TypeScript-ready** — zero config required
+- Minimal footprint, fast performance
+- Perfect for **landing pages, portfolios, and apps**
+- Designed for **developers who love smooth UI animations**
 
 ✅ One package, dual compatibility, zero friction.
 
@@ -98,24 +108,20 @@ No forcing users to choose between JSX and TSX:
 
 1. Clone the repo
 2. Install dependencies: `npm install`
-3. Build: `npm run build`
+3. Build the package: `npm run build`
 4. Test locally via `npm link` or `npm pack`
-5. See something to improve? Open an issue or submit a PR!
+5. Open an issue or PR to contribute 🚀
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file.
 
 ---
 
-**Crafted by** Thinakaran Manokaran — building elegant, functional solutions with **quality**, **consistency**, and **perfection**.
-🌐 Visit: [https://thinakaran.dev](https://thinakaran.dev)
+## 🔗 Links
 
----
-
-👉 With this, your package will look **professional, SEO-friendly, and beginner-friendly** on npm and GitHub.  
-
-Do you also want me to make a **short SEO tagline** (one-liner) for the npm search results (the “description” under your package name)?
-
+- 🌐 Author Website: [https://thinakaran.dev](https://thinakaran.dev)  
+- 📦 npm: [smooth-motion](https://www.npmjs.com/package/smooth-motion)  
+- 💻 GitHub Repo: [SmoothScroll](https://github.com/thinakaranmanokaran/SmoothScroll)

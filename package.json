@@ -1,7 +1,7 @@
 {
   "name": "smooth-motion",
-  "version": "1.0.3",
-  "description": "A lightweight React smooth scroll component built with Framer Motion for fluid animations and modern UI experiences.",
+  "version": "1.0.4",
+  "description": "React smooth scroll and animation component powered by Framer Motion. Lightweight, fluid, customizable, TypeScript-ready, and perfect for modern web apps and UI design.",
   "author": "Thinakaran Manokaran (https://thinakaran.dev)",
   "license": "MIT",
   "main": "dist/index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinakaranmanokaran/SmoothScroll"
+    "url": "git+https://github.com/thinakaranmanokaran/SmoothScroll.git"
   },
   "keywords": [
     "react",
@@ -34,12 +34,17 @@
     "smooth-scroll",
     "framer-motion",
     "scroll-animation",
-    "scroll-wrapper",
+    "scroll",
     "react-scroll",
     "react-animation",
     "react-ui",
     "fluid-scroll",
-    "motion-ui"
+    "motion-ui",
+    "animated-scroll",
+    "custom-scroll",
+    "parallax",
+    "react-motion",
+    "typescript"
   ],
   "peerDependencies": {
     "react": ">=17",
@@ -59,7 +64,7 @@
     "typescript": "^5.9.2"
   },
   "bugs": {
-    "url": "https://github.com/thinakaranmanokaran/SmoothScrollissues"
+    "url": "https://github.com/thinakaranmanokaran/SmoothScroll/issues"
   },
   "homepage": "https://github.com/thinakaranmanokaran/SmoothScroll#readme"
 }

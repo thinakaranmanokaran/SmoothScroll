@@ -1,7 +1,7 @@
-# use-smooth-scroll
+# smooth-motion
 
-[![npm version](https://img.shields.io/npm/v/use-smooth-scroll.svg)](https://www.npmjs.com/package/use-smooth-scroll)
-[![npm downloads](https://img.shields.io/npm/dm/use-smooth-scroll.svg)](https://www.npmjs.com/package/use-smooth-scroll)
+[![npm version](https://img.shields.io/npm/v/smooth-motion.svg)](https://www.npmjs.com/package/smooth-motion)
+[![npm downloads](https://img.shields.io/npm/dm/smooth-motion.svg)](https://www.npmjs.com/package/smooth-motion)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -11,7 +11,7 @@
 
 ## 🌟 Overview
 
-**use-smooth-scroll** is a **lightweight React smooth scroll component** powered by **Lenis**.
+**smooth-motion** is a **lightweight React smooth scroll component** powered by **Lenis**.
 It enables **fluid, speed-controllable scroll effects** with zero external CSS, working seamlessly in both **JavaScript (JSX)** and **TypeScript (TSX)** projects.
 
 Ideal for **modern UI/UX**, landing pages, portfolios, and apps that need **silky smooth scrolling animations** with minimal setup.
@@ -34,11 +34,11 @@ Ideal for **modern UI/UX**, landing pages, portfolios, and apps that need **silk
 Install with your favorite package manager:
 
 ```bash
-npm install use-smooth-scroll
+npm install smooth-motion
 # or
-yarn add use-smooth-scroll
+yarn add smooth-motion
 # or
-pnpm add use-smooth-scroll
+pnpm add smooth-motion
 ```
 
 ---
@@ -49,7 +49,7 @@ pnpm add use-smooth-scroll
 
 ```jsx
 import React from "react";
-import { UseSmoothScroll } from "use-smooth-scroll";
+import { UseSmoothScroll } from "smooth-motion";
 
 export default function App() {
   return (
@@ -67,7 +67,7 @@ export default function App() {
 
 ```tsx
 import React from "react";
-import { UseSmoothScroll, UseSmoothScrollProps } from "use-smooth-scroll";
+import { UseSmoothScroll } from "smooth-motion";
 
 const App: React.FC = () => {
   return (
@@ -93,7 +93,7 @@ export default App;
 
 ---
 
-## 💡 Why Choose use-smooth-scroll?
+## 💡 Why Choose smooth-motion?
 
 * Works with **React 17+ and React 19**
 * **TypeScript-ready** — zero config required
@@ -124,5 +124,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ## 🔗 Links
 
 * 🌐 Author Website: [https://thinakaran.dev](https://thinakaran.dev)
-* 📦 npm: [use-smooth-scroll](https://www.npmjs.com/package/use-smooth-scroll)
-* 💻 GitHub Repo: [UseSmoothScroll](https://github.com/thinakaranmanokaran/UseSmoothScroll)
+* 📦 npm: [smooth-motion](https://www.npmjs.com/package/smooth-motion)
+* 💻 GitHub Repo: [UseSmoothScroll](https://github.com/thinakaranmanokaran/SmoothScroll)

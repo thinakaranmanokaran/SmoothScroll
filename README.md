@@ -1,7 +1,7 @@
-# smooth-motion
+# use-smooth-scroll
 
-[![npm version](https://img.shields.io/npm/v/smooth-motion.svg)](https://www.npmjs.com/package/smooth-motion)
-[![npm downloads](https://img.shields.io/npm/dm/smooth-motion.svg)](https://www.npmjs.com/package/smooth-motion)
+[![npm version](https://img.shields.io/npm/v/use-smooth-scroll.svg)](https://www.npmjs.com/package/use-smooth-scroll)
+[![npm downloads](https://img.shields.io/npm/dm/use-smooth-scroll.svg)](https://www.npmjs.com/package/use-smooth-scroll)
 [![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -11,8 +11,8 @@
 
 ## 🌟 Overview
 
-**smooth-motion** is a **lightweight React smooth scroll and animation component** powered by **Framer Motion**.  
-It enables **fluid, spring-based scroll effects** with zero external CSS, working seamlessly in both **JavaScript (JSX)** and **TypeScript (TSX)** projects.  
+**use-smooth-scroll** is a **lightweight React smooth scroll component** powered by **Lenis**.
+It enables **fluid, speed-controllable scroll effects** with zero external CSS, working seamlessly in both **JavaScript (JSX)** and **TypeScript (TSX)** projects.
 
 Ideal for **modern UI/UX**, landing pages, portfolios, and apps that need **silky smooth scrolling animations** with minimal setup.
 
@@ -20,12 +20,12 @@ Ideal for **modern UI/UX**, landing pages, portfolios, and apps that need **silk
 
 ## ✨ Features
 
-- 🚀 Smooth **Framer Motion-powered scroll animations**
-- ⚡ **Lightweight** and dependency-friendly
-- 🔧 Fully **customizable** via props (`stiffness`, `damping`, `mass`)
-- 📦 Out-of-the-box support for **JSX & TSX**
-- 🎨 No extra CSS — just clean, declarative **React**
-- 🛡️ TypeScript typings included
+* 🚀 Smooth **Lenis-powered scroll animations**
+* ⚡ **Lightweight** and dependency-friendly
+* 🔧 Fully **customizable** via props (`speed`)
+* 📦 Out-of-the-box support for **JSX & TSX**
+* 🎨 No extra CSS — just clean, declarative **React**
+* 🛡️ TypeScript typings included
 
 ---
 
@@ -34,11 +34,11 @@ Ideal for **modern UI/UX**, landing pages, portfolios, and apps that need **silk
 Install with your favorite package manager:
 
 ```bash
-npm install smooth-motion
+npm install use-smooth-scroll
 # or
-yarn add smooth-motion
+yarn add use-smooth-scroll
 # or
-pnpm add smooth-motion
+pnpm add use-smooth-scroll
 ```
 
 ---
@@ -49,15 +49,16 @@ pnpm add smooth-motion
 
 ```jsx
 import React from "react";
-import { SmoothScroll } from "smooth-motion";
+import { UseSmoothScroll } from "use-smooth-scroll";
 
 export default function App() {
   return (
-    <SmoothScroll>
-      <div style={{ height: 2000 }}>
-        <h1>Hello from SmoothScroll (JSX)</h1>
+    <>
+      <UseSmoothScroll speed={1.5} />
+      <div style={{ height: 3000 }}>
+        <h1>Hello from UseSmoothScroll (JSX)</h1>
       </div>
-    </SmoothScroll>
+    </>
   );
 }
 ```
@@ -66,39 +67,39 @@ export default function App() {
 
 ```tsx
 import React from "react";
-import { SmoothScroll, SmoothScrollProps } from "smooth-motion";
+import { UseSmoothScroll, UseSmoothScrollProps } from "use-smooth-scroll";
 
-export default function App(): JSX.Element {
+const App: React.FC = () => {
   return (
-    <SmoothScroll stiffness={120} damping={32} mass={1.2}>
-      <div style={{ height: 2000 }}>
-        <h1>Hello from SmoothScroll (TSX)</h1>
+    <>
+      <UseSmoothScroll speed={2} />
+      <div style={{ height: 3000 }}>
+        <h1>Hello from UseSmoothScroll (TSX)</h1>
       </div>
-    </SmoothScroll>
+    </>
   );
-}
+};
+
+export default App;
 ```
 
 ---
 
 ## ⚙️ Props
 
-| Prop        | Type        | Default | Description                          |
-| ----------- | ----------- | ------- | ------------------------------------ |
-| `children`  | `ReactNode` | —       | Your scrollable content              |
-| `stiffness` | `number`    | `100`   | Controls the stiffness of the spring |
-| `damping`   | `number`    | `30`    | Controls spring damping (smoothness) |
-| `mass`      | `number`    | `1`     | Mass of the spring (momentum feel)   |
+| Prop    | Type     | Default | Description                             |
+| ------- | -------- | ------- | --------------------------------------- |
+| `speed` | `number` | `1`     | Controls scroll speed (higher = faster) |
 
 ---
 
-## 💡 Why Choose smooth-motion?
+## 💡 Why Choose use-smooth-scroll?
 
-- Works with **React 17+ and React 19**
-- **TypeScript-ready** — zero config required
-- Minimal footprint, fast performance
-- Perfect for **landing pages, portfolios, and apps**
-- Designed for **developers who love smooth UI animations**
+* Works with **React 17+ and React 19**
+* **TypeScript-ready** — zero config required
+* Minimal footprint, fast performance
+* Perfect for **landing pages, portfolios, and apps**
+* Designed for **developers who love smooth UI animations**
 
 ✅ One package, dual compatibility, zero friction.
 
@@ -122,6 +123,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 🔗 Links
 
-- 🌐 Author Website: [https://thinakaran.dev](https://thinakaran.dev)  
-- 📦 npm: [smooth-motion](https://www.npmjs.com/package/smooth-motion)  
-- 💻 GitHub Repo: [SmoothScroll](https://github.com/thinakaranmanokaran/SmoothScroll)
+* 🌐 Author Website: [https://thinakaran.dev](https://thinakaran.dev)
+* 📦 npm: [use-smooth-scroll](https://www.npmjs.com/package/use-smooth-scroll)
+* 💻 GitHub Repo: [UseSmoothScroll](https://github.com/thinakaranmanokaran/UseSmoothScroll)

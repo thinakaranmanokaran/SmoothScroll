@@ -1,6 +1,6 @@
 {
   "name": "smooth-motion",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight React smooth scroll component built with Framer Motion for fluid animations and modern UI experiences.",
   "author": "Thinakaran Manokaran (https://thinakaran.dev)",
   "license": "MIT",

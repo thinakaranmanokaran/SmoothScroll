@@ -1,41 +1,46 @@
-# smooth-scroll
+# smooth-motion
 
-**Author:** Thinakaran Manokaran 
-[https://thinakaran.dev](https://thinakaran.dev)
+[![npm version](https://img.shields.io/npm/v/smooth-motion.svg)](https://www.npmjs.com/package/smooth-motion)
+[![npm downloads](https://img.shields.io/npm/dm/smooth-motion.svg)](https://www.npmjs.com/package/smooth-motion)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue.svg)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A minimal, high-performance React component for smooth scrolling using **Framer Motion**. Designed to bring silky transitions to your content — user-friendly for both **JavaScript (JSX)** and **TypeScript (TSX)** developers.
+**Author:** Thinakaran Manokaran · [https://thinakaran.dev](https://thinakaran.dev)
+
+A minimal, high-performance **React Smooth Scroll** component powered by **Framer Motion**.  
+Designed to bring silky-smooth transitions to your app — works perfectly for both **JavaScript (JSX)** and **TypeScript (TSX)** developers.
 
 ---
 
-##  Features
+## ✨ Features
 
-- Smooth spring scrolling powered by **Framer Motion**
+- Smooth spring-based scrolling with **Framer Motion**
 - Lightweight and dependency-friendly
-- Works out-of-the-box for both JS and TS users
-- Customizable with props: `stiffness`, `damping`, `mass`
-- No external CSS — only functional, declarative code
+- Out-of-the-box support for **JS** and **TS**
+- Customizable props: `stiffness`, `damping`, `mass`
+- Zero external CSS — just clean, declarative React
 
 ---
 
-##  Installation
+## 📦 Installation
 
 ```bash
-npm install smooth-scroll framer-motion
+npm install smooth-motion
 # or
-yarn add smooth-scroll framer-motion
+yarn add smooth-motion
 # or
-pnpm add smooth-scroll framer-motion
+pnpm add smooth-motion
 ````
 
 ---
 
-## Usage Examples
+## 🚀 Usage Examples
 
 ### JavaScript (JSX)
 
 ```jsx
 import React from "react";
-import { SmoothScroll } from "smooth-scroll";
+import { SmoothScroll } from "smooth-motion";
 
 export default function App() {
   return (
@@ -52,7 +57,7 @@ export default function App() {
 
 ```tsx
 import React from "react";
-import { SmoothScroll, SmoothScrollProps } from "smooth-scroll";
+import { SmoothScroll, SmoothScrollProps } from "smooth-motion";
 
 export default function App(): JSX.Element {
   return (
@@ -67,7 +72,7 @@ export default function App(): JSX.Element {
 
 ---
 
-## Props
+## ⚙️ Props
 
 | Prop        | Type        | Default | Description                          |
 | ----------- | ----------- | ------- | ------------------------------------ |
@@ -78,36 +83,39 @@ export default function App(): JSX.Element {
 
 ---
 
-## Why This Works for Everyone
+## 💡 Why This Works for Everyone
 
-No forcing your consumers to pick between JSX or TSX. With this package:
+No forcing users to choose between JSX and TSX:
 
-* **JSX users** just import the prebuilt JS — no config needed.
-* **TSX users** will seamlessly benefit from included `.d.ts` typings.
+* **JSX users** → Just import the prebuilt JS, no setup required
+* **TSX users** → Automatically benefit from included `.d.ts` typings
 
-One package, dual-format compatibility, zero friction.
+✅ One package, dual compatibility, zero friction.
 
 ---
 
-## Development & Contribution
+## 🛠️ Development & Contribution
 
 1. Clone the repo
 2. Install dependencies: `npm install`
 3. Build: `npm run build`
-4. Test in a demo app via `npm link` or `npm pack`
+4. Test locally via `npm link` or `npm pack`
 5. See something to improve? Open an issue or submit a PR!
 
 ---
 
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/thinakaran-dev/smooth-scroll/blob/main/LICENSE)
+## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Inspired by** Thinakaran Manokaran — crafting elegant, functional solutions with **quality**, **consistency**, and **perfection**.
-Visit: [https://thinakaran.dev](https://thinakaran.dev)
+**Crafted by** Thinakaran Manokaran — building elegant, functional solutions with **quality**, **consistency**, and **perfection**.
+🌐 Visit: [https://thinakaran.dev](https://thinakaran.dev)
 
 ---
+
+👉 With this, your package will look **professional, SEO-friendly, and beginner-friendly** on npm and GitHub.  
+
+Do you also want me to make a **short SEO tagline** (one-liner) for the npm search results (the “description” under your package name)?
+

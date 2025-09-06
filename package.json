@@ -1,8 +1,8 @@
 {
-  "name": "smooth-scroll",
-  "version": "1.0.1",
-  "description": "A smooth scroll wrapper component for React using Framer Motion",
-  "author": "Thinakaran Manokaran <thinakaran@thinakaran.dev> (https://thinakaran.dev)",
+  "name": "smooth-motion",
+  "version": "1.0.2",
+  "description": "A lightweight React smooth scroll component built with Framer Motion for fluid animations and modern UI experiences.",
+  "author": "Thinakaran Manokaran (https://thinakaran.dev)",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -10,8 +10,7 @@
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     }
   },
   "files": [
@@ -27,35 +26,40 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinakaran-dev/smooth-scroll.git"
+    "url": "git+https://github.com/thinakaranmanokaran/SmoothScroll"
   },
   "keywords": [
     "react",
+    "react-component",
     "smooth-scroll",
     "framer-motion",
-    "scroll",
-    "react-component",
-    "animation",
-    "ui"
+    "scroll-animation",
+    "scroll-wrapper",
+    "react-scroll",
+    "react-animation",
+    "react-ui",
+    "fluid-scroll",
+    "motion-ui"
   ],
   "peerDependencies": {
-    "framer-motion": ">=6",
     "react": ">=17",
     "react-dom": ">=17"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12"
   },
   "devDependencies": {
     "@types/react": "^18.3.24",
     "@types/react-dom": "^18.3.7",
     "eslint": "^8.57.1",
-    "framer-motion": "^12.23.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "rimraf": "^3.0.2",
-    "tsup": "^6.7.0",
+    "tsup": "^8.5.0",
     "typescript": "^5.9.2"
   },
   "bugs": {
-    "url": "https://github.com/thinakaranmanokaran/smooth-scroll/issues"
+    "url": "https://github.com/thinakaranmanokaran/SmoothScrollissues"
   },
-  "homepage": "https://github.com/thinakaranmanokaran/smooth-scroll#readme"
+  "homepage": "https://github.com/thinakaranmanokaran/SmoothScroll#readme"
 }
